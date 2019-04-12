@@ -3,6 +3,10 @@ variable "loc" {
   default     = "westus"
 }
 
+variable "webapplocs" {
+  default = [ "eastus2", "centralus", "westus" ]
+}
+
 variable "tags" {
   default = {
     source  = "Terraform"
