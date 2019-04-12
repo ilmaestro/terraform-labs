@@ -4,7 +4,7 @@ variable "loc" {
 }
 
 variable "webapplocs" {
-  default = [ "eastus2", "centralus", "westus" ]
+  default = []
 }
 
 variable "tags" {
