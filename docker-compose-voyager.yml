@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+   shell:
+     image: acrct9976hn.azurecr.io/samples/blazor:v1
+     ports:
+       - "80:80"
+     restart: always

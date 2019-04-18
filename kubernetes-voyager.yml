@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: shell
+  labels:
+    name: shell
+spec:
+  containers:
+
+   - image: acrct9976hn.azurecr.io/samples/blazor:v1
+     name: shell
+     ports:
+     - containerPort: 80
+       name: shell
